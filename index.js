@@ -25,8 +25,8 @@ app.get('/api/timestamp/:mydate',(req,res)=>{
 })
 
 app.post('/',(req,res)=>{
-    return res.redirect(`http://localhost:${PORT}/api/timestamp/${req.body.myDate}`)
-   
+    return res.redirect(`${req.baseUrl}/api/timestamp/${req.body.myDate}`)
+    
 
 })
 
