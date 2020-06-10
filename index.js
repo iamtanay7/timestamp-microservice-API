@@ -1,5 +1,4 @@
 const PORT = 3000;
-const https = require('http')
 var express = require('express')
 var app = express()
 var bodyParser = require('body-parser')
