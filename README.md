@@ -6,10 +6,10 @@ GET [project URL]/api/timestamp/:date_string
 
 ### Examples   
 Request:- GET localhost:3000/api/timestamp/2015-12-25  
-Output:- {"unix":1451001600000,"utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
+Response:- {"unix":1451001600000,"utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
 
 Request:- GET localhost:3000/api/timestamp/randomString  
-Output:- {"error":"Invalid Date"}
+Response:- {"error":"Invalid Date"}
 
 ### Installation steps  
 1. git clone https://github.com/iamtanay7/timestamp-microservice-api.git  
